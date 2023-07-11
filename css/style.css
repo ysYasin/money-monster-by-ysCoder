@@ -104,10 +104,32 @@ font-weight: 600;
 border-radius: 5px;
 margin-left: 1.5rem;
 }
+#savings-btn:hover , #calculete:hover{
+    background: #15dfdf;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+#false-alertfor-Income{
+    color: red;
+    text-align: center;
+    font-size: smaller;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    display: none;
+}
+#false-alertfor-parsentage,#false-alertfor-expence{
+    color: red;
+    text-align: center;
+    font-size: smaller;
+    margin-left: 2rem;
+    margin-top: -1rem;
+    display: none;
+}
 @media only screen and (max-width:688px) {
     .main{
         display: block;
         width: 100dvw;
+        margin: 0;
     }
     .header-text{
         font-size: 2rem;
@@ -152,5 +174,5 @@ margin-left: 1.5rem;
         border-radius: 5px;
         margin-left: 1.5rem;
       }
-      
+
 }
