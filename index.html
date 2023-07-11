@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+    <!-- custom css linking  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-text">money master</h1>
+    </header>
+<main class="main">
+    <section class="cover-photo">
+        <img src="images/coverImage.png" alt="cover image" >
+    </section>
+    <section class="caltulateSide">
+            <h2 class="icnome-and-expence">income</h2>
+            <div class="income-label">
+                <label  for="income">income:</label>
+                <input class="income-and-expences-input" id="income" type="text">
+            </div>
+            <h2 class="icnome-and-expence">expances</h2>
+            <div class="expence-way">
+                <div class="expence-item ">
+                    <label for="food">food:</label>
+            <input class="income-and-expences-input" id="food" type="text">
+                </div>
+            <div class="expence-item ">
+                <label for="rent">rent:</label>
+            <input class="income-and-expences-input" id="rent" type="text">
+            </div>
+            <div class="expence-item ">
+                <label  for="extra">extra:</label>
+            <input class="income-and-expences-input" id="extra" type="text">
+            </div>
+            </div>
+        <div class="calculte-btn">
+            <button id="calculete">calculete</button>
+        </div>
+        <div class="total-expence">
+            <h3>Total expence : <span id="total-expence">00</span></h3>
+        </div>
+        <div class="balence">
+            <h3>balence : <span id="balence">00</span></h3>
+        </div>
+        <div class="savings-option">
+            <div class="savings-input">
+                <label for="savings">savings :</label>
+                <input id="savings-input" type="text">
+            </div>
+            <div class="parsent-sign">
+                <h2>%</h2>
+            </div>
+            <div>
+                <button id="savings-btn">save</button>
+            </div>
+        </div>
+        <div class="Saving-amount">
+            <h3>saving amount: <span id="saving-amount">00</span></h3>
+        </div>
+        <div class="remaining-balence">
+            <h3>remaining balence: <span id="remaining-balence">00</span></h3>
+        </div>
+
+    </section>
+</main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

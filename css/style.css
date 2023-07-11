@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.header{
+    margin: 2rem;
+    text-align: center;
+}
+.header-text{
+color: rgb(95, 172, 255);
+font-size: 4rem;
+}
+.main{
+    display: flex;
+    gap: 5rem;
+    width: 90%;
+    margin: auto;
+}
+.caltulateSide{
+    width: 100%;
+    background: #f5f5f5;
+    padding: 2rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.incomeLable{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icnome-and-expence{
+    font-size: 1.3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.income-label {
+    margin-left: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.expence-way{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.expence-item {
+    margin-left: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.income-and-expences-input{
+margin-left: 1rem;
+padding: .2rem;
+font-size: 1.3rem;
+border: none;
+outline-color: aliceblue;
+}
+#calculete{
+padding: .6rem 2rem;
+outline: none;
+border: none;
+background: aqua;
+font-size: 1.2rem;
+font-weight: 600;
+border-radius: 20px;
+}
+.savings-option{
+    display: flex;
+    width: 76%;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.savings-input {
+    display: flex;
+    gap: 1.22rem;
+    align-items: center;
+}
+input#savings-input {
+    width: 30%;
+    padding: 0.2rem;
+    font-size: 1.3rem;
+    border: none;
+    outline-color: aliceblue;
+}
+.parsent-sign {
+    margin-left: -9rem;
+}
+#savings-btn{
+    padding: .6rem 2rem;
+outline: none;
+border: none;
+background: aqua;
+font-size: 1.2rem;
+font-weight: 600;
+border-radius: 5px;
+margin-left: 1.5rem;
+}
+@media only screen and (max-width:688px) {
+    .main{
+        display: block;
+        width: 100dvw;
+    }
+    .header-text{
+        font-size: 2rem;
+    }
+    .cover-photo img{
+        width: 100dvw;
+        box-sizing: content-box;
+        margin-bottom: 2rem;
+    }
+    .expence-item{
+        margin-left: 1.5rem;
+    }
+    .savings-option {
+        display: flex;
+        width: 52%;
+        margin-left: 0%;
+        align-items: center;
+        justify-content: center;
+      }
+      .savings-input {
+        display: flex;
+        gap: .7rem;
+        align-items: center;
+      }
+      input#savings-input {
+        width: 6rem;
+        padding: 0.2rem;
+        font-size: 1.3rem;
+        border: none;
+        outline-color: aliceblue;
+      }
+      .parsent-sign {
+        margin-left: 3rem;
+      }
+      #savings-btn {
+        padding: .6rem 2rem;
+        outline: none;
+        border: none;
+        background: aqua;
+        font-size: 1.2rem;
+        font-weight: 600;
+        border-radius: 5px;
+        margin-left: 1.5rem;
+      }
+      
+}
